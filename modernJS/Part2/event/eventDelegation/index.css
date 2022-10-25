@@ -1,0 +1,21 @@
+body {
+  height: 10000px;
+}
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: white;
+  border: 1px solid cornflowerblue;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  padding: 12px 20px;
+  z-index:1;
+}
+
+span:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
