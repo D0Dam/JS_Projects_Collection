@@ -1,9 +1,12 @@
 function moveball(e) {
   const ball  = document.querySelector("#ball");
-  const ballLeft  = e.clientX-26;
-  const ballTop  = e.clientY-26;
-  console.log(ballLeft.toString() + "px", ballTop.toString() + "px");
-  ball.style.position = 'absolute';
+  ball.style.position = "absolute";
+  let ballLeft  = e.clientX - 24;
+  let ballTop  = e.clientY - 24;
+  if(e.clientX < 24) ballLeft = 0;
+  if(e.clientX > 216) ballLeft = 196;
+  if(e.clientY < 24) ballTop = 0;
+  if(e.clientY > 136) ballTop = 116;
   ball.style.left = ballLeft.toString() + "px";
   ball.style.top = ballTop.toString() + "px";
 }
