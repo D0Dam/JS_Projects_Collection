@@ -24,7 +24,7 @@ body {
   border: 1px solid black;
 }
 
-#colorbutton {
+.colorbutton {
   background: gainsboro;
   padding: 10px;
   margin-top: 12px;
@@ -32,7 +32,7 @@ body {
   border-radius: 12px;
 }
 
-#colorbutton:hover {
+.colorbutton:hover {
   background: grey;
   cursor: pointer;
 }
