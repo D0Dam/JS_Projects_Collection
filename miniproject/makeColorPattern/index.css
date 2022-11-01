@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin:0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
+
+#colortable {
+  display: flex;
+  margin:0;
+  padding:0;
+}
+
+.colorspace {
+  width: 120px;
+  height: 120px;
+  background: white;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+#colorbutton {
+  background: gainsboro;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 12px;
+}
+
+#colorbutton:hover {
+  background: grey;
+  cursor: pointer;
+}
