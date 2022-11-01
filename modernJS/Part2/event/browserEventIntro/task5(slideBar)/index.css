@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin:0;
+}
+
+#slider {
+  cursor: pointer;
+}
+
+.list {
+  margin:0;
+  padding: 12px;
+  visibility: hidden;
+}
+
+.visible {
+  margin:0;
+  padding: 12px;
+  visibility: visible;
+}
